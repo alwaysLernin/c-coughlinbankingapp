@@ -26,7 +26,7 @@ const Transactions = ({ transactionList }) => {
                     <td>{transaction.name}</td>
                     <td>{transaction.userId}</td>
                     <td>{transaction.type}</td>
-                    <td>{transaction.amount}</td>                
+                    <td className="text-end">${transaction.amount}</td>                
                 </tr>
                 );
             })}

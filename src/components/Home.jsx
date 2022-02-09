@@ -20,12 +20,12 @@ function Home(){
                     style={{ color: "maroon", fontWeight: 800}}>
                     <h3>{ tLabel }</h3>
                 </Card.Title>
-                <Card.Body>            
-                    <Card.Text 
+                <Card.Body            
+                    
                         className= "text-center p-0 m-0" 
                         style={{ color: "maroon"}}>
                         <h5>{ bText01 }</h5>
-                    </Card.Text>
+                    
                 </Card.Body>
                 <Card.Img 
                     className="p-3 justify-content-center text-center mx-auto"
