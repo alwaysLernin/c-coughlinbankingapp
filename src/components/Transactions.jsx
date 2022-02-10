@@ -12,7 +12,7 @@ const Transactions = ({ transactionList }) => {
             <tr>
                 <th>Id</th>
                 <th>Name</th>
-                <th>Account User Id</th>
+                {/*<th>Account User Id</th>*/}
                 <th>Type</th>
                 <th>Amount</th>
             </tr>
@@ -24,7 +24,7 @@ const Transactions = ({ transactionList }) => {
                 <tr key={idx}>
                     <td>{transaction.id}</td>
                     <td>{transaction.name}</td>
-                    <td>{transaction.userId}</td>
+                    {/*<td>{transaction.userId}</td> */}
                     <td>{transaction.type}</td>
                     <td className="text-end">${transaction.amount}</td>                
                 </tr>

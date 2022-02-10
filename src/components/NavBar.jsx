@@ -2,10 +2,9 @@ import React, { useState, useContext } from 'react'
 import {Nav, Navbar, Container } from 'react-bootstrap';
 import { AccountContext } from '../contexts/AccountContext';
 
-
-
-
 function NavBar() {
+  //const { currentUserId, accounts } = useContext(AccountContext);
+  //const currentUser = accounts.filter(account => account.id === currentUserId)[0];
     return(
         <>
         <Navbar bg="dark" variant="dark" expand="lg">
@@ -23,6 +22,11 @@ function NavBar() {
               </Nav>
             </Navbar.Collapse>
           </Container>
+          {/* <span>
+            <div style={{ color: "palegoldenrod", display: "flex", justifyContent: "flex-end", paddingRight: 130 }}><div>currentUser.name</div>
+            <div style={{ color: "deepskyblue", cursor: 'pointer', textDecoration: 'underline', marginLeft: 20}}>Log In / Log Out</div>
+            </div>
+          </span>  */}
         </Navbar>
         </>
       );
